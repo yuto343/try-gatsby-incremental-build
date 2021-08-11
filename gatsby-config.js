@@ -24,5 +24,15 @@ module.exports = {
       },
       __key: "pages",
     },
+    {
+      resolve: 'gatsby-source-microcms',
+      options: {
+        apiKey: 'a60a7889-dd87-40db-b221-f0cce18b58cd',
+        serviceId: 'n-gatsby-test',
+        apis: [{
+          endpoint: 'credit-card',
+        }],
+      },
+    },
   ],
 };
